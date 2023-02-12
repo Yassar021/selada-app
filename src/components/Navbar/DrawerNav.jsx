@@ -34,7 +34,7 @@ const DrawerNav = () => {
                             <Link href="/">
                                 <Text fontSize="16px">Informasi Umum</Text>
                             </Link>
-                            <Link href="/">
+                            <Link href="/Diagnosa">
                                 <Text fontSize="16px">Diagnosa Selada</Text>
                             </Link>
                         </Stack>
