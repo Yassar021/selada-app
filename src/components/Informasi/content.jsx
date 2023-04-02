@@ -1,5 +1,9 @@
 import { Flex, Text, Progress } from "@chakra-ui/react"
 import Image from "next/image"
+import { useMemo } from "react"
+import { BusukAkarDesc as BusukAkar} from "./busukAkar";
+import {MataKodokDesc as MataKodok} from "./mataKodok";
+import {ThripsDesc as Thrips} from "./thrips";
 
 const Content = ({ img, title, firstTitle, firstSubtitle, confidents = [] }) => {
     const confidentsSort = confidents.sort((a, b) => {
@@ -11,6 +15,24 @@ const Content = ({ img, title, firstTitle, firstSubtitle, confidents = [] }) => 
             return 0
         }
     })
+
+    const description = useMemo(() => {
+        switch (title) {
+            case "Busuk Akar":
+                return  <BusukAkar />
+                break;
+            case "Mata Kodok":
+                return <MataKodok />
+                break;
+            case "trips":
+                return <Thrips />
+                break;
+            default:
+                return <></>
+                break;
+        }
+    },[title])
+
     return (
         <Flex direction="column" gap='10px'>
             <Text fontWeight={'600'} fontSize={"16px"}>{title}</Text>
@@ -30,6 +52,9 @@ const Content = ({ img, title, firstTitle, firstSubtitle, confidents = [] }) => 
                         )
                     })
                 }
+            </div>
+            <div>
+                {description}
             </div>
         </Flex>
 

@@ -6,6 +6,14 @@ const BusukAkar = () => {
         <Flex direction="column" gap='10px' textAlign={'justify'}>
             <Text fontWeight={'600'} fontSize={"24px"}>Busuk Akar</Text>
             <Image width="250" height="250" src={'/busukakar.jpg'} alt="content" />
+            <BusukAkarDesc />
+        </Flex>
+    )
+}
+
+export function BusukAkarDesc() {
+    return (
+        <>
             <Text fontWeight={'600'} fontSize={"16px"}>Mengapa Busuk Akar Hidroponik bisa Terjadi?</Text>
             <Text textAlign={'justify'} fontSize={"16px"}>
                 Fenomena akar busuk bisa terjadi dalam beberapa cara yang berbeda. Hal ini juga bergantung pada jenis tanaman yang terdampak: apakah tumbuhan yang berbunga atau sejenis selada/tanaman rempah. Beberapa gejala umum yang sering dijumpai adalah daun menggulung keatas atau kebawah, pertumbuhan tanaman menjadi lambat, dan bisa saja warna daun menguning.
@@ -19,8 +27,7 @@ const BusukAkar = () => {
                 <ListItem>Jika penyakit sudah mulai mempengaruhi akar tanaman yang lain di kebun, rendamlah akar dengan air bersih dan guntinglah akar yang sudah mati dengan gunting yang steril. Tanamkan kembali tanaman di media yang baru dan sebaiknya gantilah komposisi aliran nutrisi cair.</ListItem>
                 <ListItem>Selain air, kamu bisa menggunakan bahan kimia, seperti fungisida, chloropicrin, metil bromida, Physan 20, dan atau Hidrogen Peroksida (H2O2) untuk membersihkan akar dari lapisan lendir dan bakteri. Produk kimia tersebut tidak dapat membedakan bakteri yang patogen dan yang menguntungkan akar. Karena itu, jika sudah selesai membersihkan akar, kamu bisa menambahkan kembali bakteri yang menguntungkan (misal dengan menggunakan produk hydroguard) untuk mengembalikan fungsi akar seperti semula. Selain itu, penting sekali untuk mengidentifikasi jamur mana yang menyebabkan akar membusuk agar kita tahu menggunakan bahan kimia yang tepat.</ListItem>
             </OrderedList>
-
-        </Flex>
+        </>
     )
 }
 

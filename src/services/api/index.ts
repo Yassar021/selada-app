@@ -1,4 +1,5 @@
-const BASE_URL = "http://fauzan.westus3.cloudapp.azure.com:5000"
+// const BASE_URL = "http://fauzan.westus3.cloudapp.azure.com:5000"
+const BASE_URL = "http://localhost:5000"
 
 
 export function uploadImage(name: string, email: string, phone: string, image: File) {
