@@ -13,7 +13,7 @@ const Navbar = () => {
             <Container bgColor='#fff' shadow="lg" maxW='lg' py='20px'>
                 <Flex justifyContent={"space-between"} >
                     <Link href="/" color='red'>
-                        <Text mt='10px' fontWeight={"600"}>Selada App</Text>
+                        <Text mt='10px' fontSize={'16px'} fontWeight={"600"}>Selada App</Text>
                     </Link>
                     <DrawerNav />
                 </Flex >

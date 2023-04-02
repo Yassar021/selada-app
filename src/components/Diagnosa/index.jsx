@@ -11,9 +11,9 @@ const Diagnosa = () => {
     const [email, setEmail] = useState("")
     const [phone, setPhone] = useState("")
     const [isLoading, setLoading] = useState(false)
-    
-    const [imageUrl,setImageUrl] = useState("");
-    const [result,setResult] = useState()
+
+    const [imageUrl, setImageUrl] = useState("");
+    const [result, setResult] = useState()
 
     const [page, setPage] = useState("form")
 
@@ -40,7 +40,7 @@ const Diagnosa = () => {
                     <Container bgColor='#fff' maxW='lg' height={"90vh"} pt='20px'>
                         <Flex direction="column" gap='20px' pb='50px'>
                             <Text>Lengkapi data dibawah ini :</Text>
-                            <Box>
+                            {/* <Box>
                                 <Text mb='4px'>Nama</Text>
                                 <Input
                                     placeholder='Here is a sample placeholder'
@@ -59,7 +59,7 @@ const Diagnosa = () => {
                                 <Input
                                     placeholder='Here is a sample placeholder'
                                     size='md' />
-                            </Box>
+                            </Box> */}
 
                             <Box>
                                 <Text mb='4px'>Foto Selada</Text>
