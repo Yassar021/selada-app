@@ -16,14 +16,14 @@ const MataKodok = () => {
 
                     <ModalFooter>
                         <Button bgColor={'#2C5E46'} color='#fff' mr={3} onClick={onClose}>
-                            Close
+                            Tutup
                         </Button>
                     </ModalFooter>
                 </ModalContent>
             </Modal>
 
             <Flex direction="column" gap="10px" textAlign={"justify"}>
-                <Box width={{ base: 'auto', lg: '345px' }} height={'345px'} bgImage={'/matakodok.jpg'} bgPosition={'center'} bgRepeat={'no-repeat'} bgSize={'cover'} borderRadius={'12px'}>
+                <Box width={{ base: 'auto', lg: '345px' }} height={'345px'} bgImage={'/matakodok.png'} bgPosition={'center'} bgRepeat={'no-repeat'} bgSize={'cover'} borderRadius={'12px'}>
                     <Flex height={'90%'} px='24px' direction={'column'} justifyContent={'space-between'}>
                         <Box>
                         </Box>
@@ -61,17 +61,17 @@ export function MataKodokDesc() {
                 Apa itu penyakit mata kodok pada selada hidroponik?
             </Text>
             <Text textAlign={"justify"} fontSize={"16px"}>
-                Penyakit mata kodok adalah penyakit yang biasanya disebabkan karena
+                <br />Penyakit mata kodok adalah penyakit yang biasanya disebabkan karena
                 instalisasi green house yang tidak memadai. Sehingga munculah jamur
                 cercospora sp. Cuan,Hidroponik, Selada Penyakit ini ditandai dengan
                 adanya bercak hitam pada daun selada. Bercak tersebut bentuknya bulat
                 dengan lingkaran yang agak konsentris.
             </Text>
             <Text fontWeight={"600"} fontSize={"16px"}>
-                Cara mengatasi mata kodok pada selada hidroponik
+                <br />Cara mengatasi mata kodok pada selada hidroponik
             </Text>
             <Text textAlign={"justify"} fontSize={"16px"}>
-                Di bawah ini adalah proses dalam mengatasi penyakit mata kodok. Berikut
+                <br />Di bawah ini adalah proses dalam mengatasi penyakit mata kodok. Berikut
                 di antaranya:
             </Text>
             <OrderedList textAlign={"justify"}>

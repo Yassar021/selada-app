@@ -7,8 +7,8 @@ const Splash = () => {
             <Flex height={'96%'} direction="column" justifyContent={'space-between'} >
                 <Box></Box>
                 <Box>
-                    <Text fontSize={'58px'} fontFamily={'Aclonica'} fontWeight={'400'} color={'#fff'}>Lettuce Healthy</Text>
-                    <Text mt='15px' mb='6px' fontSize={'10px'} fontFamily={'Aclonica'} fontWeight={'500'} color={'#fff'}>Flowers always make people better, happier, and more helpful; they are sunshine, food and medicine for the soul.</Text>
+                    <Text fontSize={'40px'} fontFamily={'Aclonica'} fontWeight={'400'} color={'#fff'}>Lettuce Healthy</Text>
+                    <Text mt='15px' mb='6px' fontSize={'12px'} fontFamily={'Aclonica'} fontWeight={'500'} color={'#fff'}>selada-app is a web application that can diagnose a problem in plants, especially lettuce plants.</Text>
                     <HStack spacing='2px'>
                         <Stack>
                             <svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">

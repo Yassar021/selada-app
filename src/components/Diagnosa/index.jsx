@@ -39,7 +39,7 @@ const Diagnosa = () => {
                 page === "form" ?
                     <Container bgColor='#fff' maxW='lg' height={"90vh"} pt='20px'>
                         <Flex direction="column" gap='20px' pb='50px'>
-                            <Text>Lengkapi data dibawah ini :</Text>
+                            <Text fontSize={'16px'} fontWeight={'700'} color='#12121D'>Masukkan gambar penyakit dibawah ini :</Text>
                             {/* <Box>
                                 <Text mb='4px'>Nama</Text>
                                 <Input
@@ -62,7 +62,7 @@ const Diagnosa = () => {
                             </Box> */}
 
                             <Box>
-                                <Text mb='4px'>Foto Selada</Text>
+                                <Text mb='4px' fontSize={'14px'} fontWeight={'400'} color={'#12121D'}>Foto Selada</Text>
                                 <Input
                                     ref={inputFileRef}
                                     p='4px'
@@ -79,12 +79,12 @@ const Diagnosa = () => {
                                 disabled={isLoading}
                                 height="40px"
                                 width="100%"
-                                bgColor={'#00BD07'}
+                                bgColor={'#2C5E46'}
                                 color="#fff"
                                 type="submit"
-                                _hover={{ bg: '#00BD07' }}
+                                _hover={{ bg: '#2C5E46' }}
                                 _active={{
-                                    bg: '#00BD07',
+                                    bg: '#2C5E46',
                                     transform: 'scale(0.98)',
                                 }}
                             >
