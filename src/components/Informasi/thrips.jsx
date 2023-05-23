@@ -39,9 +39,9 @@ const Thrips = () => {
                                 color='#2C5E46'
                                 fontWeight={'600'}
                                 letterSpacing={'0.5px'}
-                                _hover={{ bg: '#2C5E46' }}
+                                _hover={{ bg: '#fff' }}
                                 _active={{
-                                    bg: '#2C5E46',
+                                    bg: '#fff',
                                     transform: 'scale(0.98)',
                                 }}
                             >
