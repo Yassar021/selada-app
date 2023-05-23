@@ -39,7 +39,8 @@ const Splash = () => {
                             }}
                         >
                             Mulai
-                        </Button></Link>
+                        </Button>
+                    </Link>
                 </Box>
                 <Box>
                     <Center>

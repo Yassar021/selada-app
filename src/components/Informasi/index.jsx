@@ -6,12 +6,9 @@ import Thrips from "./thrips"
 
 const Informasi = () => {
     return (
-        <Container bgColor='#fff' maxW='lg' pt='20px'>
+        <Container bgColor='#fff' maxW='lg'>
             <Flex direction="column" gap='20px' pb='50px'>
-                {/* <Text fontWeight={"600"}>Informasi Umum</Text>
-                <Content img="/selada.jpeg" subtitle="Hidroponik merupakan budidaya menanam dengan memanfaatkan air tanpa menggunakan tanah, cara ini menekankan pada pemenuhan kebutuhan nutrisi tanaman." /> */}
-
-                <Text mt='40px' fontWeight={"600"}>Penyakit Hidroponik Selada</Text>
+                <Text mt='40px' fontSize={'28px'} fontWeight={"600"}>Penyakit Hidroponik Selada</Text>
                 <MataKodok />
                 <BusukAkar />
                 <Thrips />

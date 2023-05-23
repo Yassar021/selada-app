@@ -11,9 +11,9 @@ const DrawerNav = () => {
             <Button my='auto' ref={btnRef} bgColor={'transparent'} onClick={onOpen}>
                 <Stack>
                     <svg width="28" height="28" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path d="M5 7H19" stroke="#2C5E46" stroke-width="2" stroke-linecap="round" />
-                        <path d="M5 12H19" stroke="#2C5E46" stroke-width="2" stroke-linecap="round" />
-                        <path d="M5 17H19" stroke="#2C5E46" stroke-width="2" stroke-linecap="round" />
+                        <path d="M5 7H19" stroke="#2C5E46" strokeWidth="2" strokeLinecap="round" />
+                        <path d="M5 12H19" stroke="#2C5E46" strokeWidth="2" strokeLinecap="round" />
+                        <path d="M5 17H19" stroke="#2C5E46" strokeWidth="2" strokeLinecap="round" />
                     </svg>
                 </Stack>
             </Button>
@@ -30,7 +30,7 @@ const DrawerNav = () => {
 
                     <DrawerBody>
                         <Stack direction="column" spacing="20px">
-                            <Link href="/">
+                            <Link href="/Homepage">
                                 <Text fontSize="16px">Informasi Umum</Text>
                             </Link>
                             <Link href="/Diagnosa">
