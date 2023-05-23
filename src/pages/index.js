@@ -1,13 +1,14 @@
 import Informasi from "@/components/Informasi";
 import { Box, Text } from "@chakra-ui/react";
 import Navbar from "../components/Navbar";
+import Splash from "@/components/Splash";
 
 const Home = () => {
   return(
     <>
-      <Box bgColor={"#f5f5f5"} width='100%'>
-        <Navbar />
-        <Informasi />
+        
+      <Box bgImage={'/bg-splash.png'} bgPosition={'center'} bgRepeat={'no-repeat'} bgSize={'cover'}  width='100vw'>
+        <Splash />  
       </Box>
     </>
   ) 
